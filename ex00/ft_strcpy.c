@@ -6,7 +6,7 @@
 /*   By: tmbexe <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/25 15:31:32 by tmbexe            #+#    #+#             */
-/*   Updated: 2020/06/26 11:18:30 by tmbexe           ###   ########.fr       */
+/*   Updated: 2020/06/26 11:58:56 by tmbexe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,10 @@ char ft_strcpy(char *dest, char *src){
 	return '\0';
 }
 
-int main(){
-	char p[40] = {};
+/*int main(){
+	char p[40];
 	char z[] = "Hello World";
 	ft_strcpy(p, z);
-	printf("%s\n", p);
+	write(1,"%s\n", p, 10);
 	return 0;
-}
+}*/
